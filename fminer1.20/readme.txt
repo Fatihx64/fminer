@@ -1,16 +1,16 @@
-lolMiner 1.18
+fMiner 1.18
 
-For a short introduction how to mine using lolMiner, see
-https://github.com/Lolliedieb/lolMiner-releases/wiki
+For a short introduction how to mine using fMiner, see
+https://github.com/Lolliedieb/fMiner-releases/wiki
 
 Also have a look to the mine_coin.bat or mine_coin.sh files which can be used as 
-starting point to run lolMiner on the command line.
+starting point to run fMiner on the command line.
 
-Here is a list of the most relevant parameters for lolMiner:
+Here is a list of the most relevant parameters for fMiner:
 
 General:
   -h [ --help ]                         Help screen
-  --config arg (=./lolMiner.cfg)        Config file
+  --config arg (=./fMiner.cfg)        Config file
   --json arg (=./user_config.json)      Config file in Json format
   --profile arg                         Profile to load from Json file
   --nocolor [=arg(=on)] (=off)          Disable colors in output
@@ -20,7 +20,7 @@ General:
   --list-algos                          List all supported algorithms
   --list-devices                        List all supported & detected GPUs in 
                                         your system
-  -v [ --version ]                      Print lolMiner version number
+  -v [ --version ]                      Print fMiner version number
 
 Mining:
   -c [ --coin ] arg                     The coin to mine
